@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login/Sign Up Form</title>
+		<link rel="shortcut icon" src="/assets/favicon.ico" href="">
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<form class="form" id="login">
+
+				<h1 class="form__title">Login</h1>
+				<div class="form__messsage form__message--error"></div>
+				
+				<div class="form__input-group">
+					<input type="text" class="form__input" autofocus placeholder="username or email" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<div class="form__input-group">
+					<input type="password" class="form__input" autofocus placeholder="Password" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<button class="form__button" type="submit">Continue</button>
+
+				<p class="form__text">
+					<a href="#" class="form__link">Forgot your password?</a>
+				</p>
+
+				<p class="form__text">
+					<a class="form__link" href="#" id="linkCreateAccount">Don't have an account? Create account</a>
+				</p>
+
+
+			</form>
+
+			<form class="form" id="createAccount">
+
+				<h1 class="form__title">Create Account</h1>
+				<div class="form__messsage form__message--error"></div>
+				
+				<div class="form__input-group">
+					<input type="text" class="form__input" autofocus placeholder="username" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<div class="form__input-group">
+					<input type="text" class="form__input" autofocus placeholder="Email Address" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<div class="form__input-group">
+					<input type="password" class="form__input" autofocus placeholder="Password" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<div class="form__input-group">
+					<input type="password" class="form__input" autofocus placeholder="Confirm Password" required="">
+					<div class="form__input-error-message"></div>
+				</div>
+
+				<button class="form__button" type="submit">Continue</button>
+
+				<p class="form__text">
+					<a class="form__link" href="#" id="linkLogin">Alredy have an account? Sign in</a>
+				</p>
+
+			</form>
+
+		</div>
+
+		<script src="main.js"></script>
+
+	</body>
+</html>
